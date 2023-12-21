@@ -1,0 +1,31 @@
+.wrapper{
+    max-width: 350px;
+    margin: 0 auto;
+    color: #666;
+  }
+  
+  .box {
+    display:flex;
+  }
+  
+  .box2 {
+    width:50%;
+    height:40px;
+  }
+  
+  
+  .gamen {
+    width: 342px;
+    height: 40px;
+    font-size: 20px;
+    text-align: right;
+  }
+  
+  .inp{
+    font-size: 18px;
+    width: 25%;
+    height: 40px;
+    color: #333;
+    vertical-align: middle;
+    border-color: #fff;
+  }
