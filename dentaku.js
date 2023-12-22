@@ -1,7 +1,3 @@
-//キャメルケース(camelCase)（関数名 / 変数名）
-//パスカルケース(PascalCase)(クラス名）
-//スネークケース(snake_case)（インスタンス名 / メソッド名）上記以外
-
 //画面の初期値
 var result = document.getElementById("result");
 //入力がされていない場合（空白）
@@ -196,7 +192,7 @@ inps.forEach(inp => {
     inp.addEventListener('click', () => {
         var num = result.value;
         if(num.substring(2,-2) === "01"){
-            result.value = "";
+            result.value = "1";
         }
         return;
     });
@@ -206,7 +202,7 @@ inps.forEach(inp => {
     inp.addEventListener('click', () => {
         var num = result.value;
         if(num.substring(2,-2) === "02"){
-            result.value = "";
+            result.value = "2";
         }
         return;
     });
@@ -216,7 +212,7 @@ inps.forEach(inp => {
     inp.addEventListener('click', () => {
         var num = result.value;
         if(num.substring(2,-2) === "03"){
-            result.value = "";
+            result.value = "3";
         }
         return;
     });
@@ -226,7 +222,7 @@ inps.forEach(inp => {
     inp.addEventListener('click', () => {
         var num = result.value;
         if(num.substring(2,-2) === "04"){
-            result.value = "";
+            result.value = "4";
         }
         return;
     });
@@ -236,7 +232,7 @@ inps.forEach(inp => {
     inp.addEventListener('click', () => {
         var num = result.value;
         if(num.substring(2,-2) === "05"){
-            result.value = "";
+            result.value = "5";
         }
         return;
     });
@@ -246,7 +242,7 @@ inps.forEach(inp => {
     inp.addEventListener('click', () => {
         var num = result.value;
         if(num.substring(2,-2) === "06"){
-            result.value = "";
+            result.value = "6";
         }
         return;
     });
@@ -256,7 +252,7 @@ inps.forEach(inp => {
     inp.addEventListener('click', () => {
         var num = result.value;
         if(num.substring(2,-2) === "07"){
-            result.value = "";
+            result.value = "7";
         }
         return;
     });
@@ -266,7 +262,7 @@ inps.forEach(inp => {
     inp.addEventListener('click', () => {
         var num = result.value;
         if(num.substring(2,-2) === "08"){
-            result.value = "";
+            result.value = "8";
         }
         return;
     });
@@ -276,7 +272,7 @@ inps.forEach(inp => {
     inp.addEventListener('click', () => {
         var num = result.value;
         if(num.substring(2,-2) === "09"){
-            result.value = "";
+            result.value = "9";
         }
         return;
     });
@@ -286,7 +282,7 @@ inps.forEach(inp => {
     inp.addEventListener('click', () => {
         var num = result.value;
         if(num.substring(2,-2) === "00"){
-            result.value = "";
+            result.value = "0";
         }
         return;
     });
@@ -296,7 +292,7 @@ inps.forEach(inp => {
     inp.addEventListener('click', () => {
         var num = result.value;
         if(num.substring(3,-2) === "000"){
-            result.value = "";
+            result.value = "0";
         }
         return;
     });
